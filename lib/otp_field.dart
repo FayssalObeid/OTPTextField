@@ -141,6 +141,7 @@ class _OTPTextFieldState extends State<OTPTextField> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: widget.width,
+      height: widget.fieldHeight,
       child: Row(
         mainAxisAlignment: widget.textFieldAlignment,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -177,7 +178,7 @@ class _OTPTextFieldState extends State<OTPTextField> {
 
     return Container(
       width: widget.fieldWidth,
-      height: widget.fieldHeight,
+     // height: widget.fieldHeight,
       margin: EdgeInsets.only(
             right: isLast ? 0 : widget.spaceBetween,
           ),
