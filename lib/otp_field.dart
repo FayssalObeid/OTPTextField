@@ -178,7 +178,7 @@ class _OTPTextFieldState extends State<OTPTextField> {
 
     return Container(
       width: widget.fieldWidth,
-     // height: widget.fieldHeight,
+      height: widget.fieldHeight,
       margin: EdgeInsets.only(
             right: isLast ? 0 : widget.spaceBetween,
           ),
